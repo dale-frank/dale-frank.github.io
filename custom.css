@@ -1,0 +1,301 @@
+
+
+body {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+    line-height: 1.55;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, p, .navbar, a {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+}
+.h1, .h2, .h3, .h4 {
+    font-weight: 400;
+    margin: 30px 0 15px;
+}
+.h1 {
+    font-size: 4.5em;
+}
+.h2 {
+    font-size: 3em;
+}
+.h3 {
+    font-size: 1.825em;
+    line-height: 1.4;
+    margin: 20px 0 10px;
+}
+.h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.h5 {
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+}
+.h6 {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.fa {
+    width: inherit;
+    text-align: center;
+}
+/* Header */
+
+
+.dfnavbar {
+    padding: 33px 0 0;
+    border-bottom: 12px solid #f68a5b;
+    background-color: #fff;
+}
+.df-btn-nostyle, .df-btn-nostyle:hover {
+    color: #66615b;
+    border: none;
+}
+.df-header {
+    min-height: 570px;
+    padding-top: 3%;
+    background-size: cover;
+}
+
+/* Compensating for fixed header for anchor tags */
+:target:before {
+content:"";
+display:block;
+height:130px; /* fixed header height*/
+margin:130px 0 0; /* negative fixed header height */
+}
+
+
+/* main area */
+.top-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 111px;
+}
+.top-container > .top-background {
+    position: fixed;
+    width: 100%;
+    height: 540px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.navbar-right .df-btn-nostyle:hover {
+    color: #f68a5b;
+}
+.title-2 {
+    font-weight: 700;
+    color: #fff;
+}
+.title-uppercase {
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 84px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.skills ul li {
+    margin-left: -26px;
+}
+.box-skills .icon {
+    margin-top: 0;
+}
+.skills-heading {
+    font-size: 24px;
+    margin-top: 0;
+    text-align: center;
+}
+.box-skills .skills-heading {
+    font-size: 22px;
+}
+
+.box-skills ul {
+    color: #000;
+}
+.color-white {
+    color: #fff;
+}
+.list-top-margin-11 li {
+    margin-top: 11px;
+}
+.font-16 {
+    font-size: 16px;
+}
+
+.text-white, .text-white a {
+    color: #fff;
+}
+.orange {
+    border: 1px solid #f68a5b;
+}
+.btn-orange:hover {
+    color: #fff;
+    border-color: #ef9b77cc;
+    background-color: #ef9b77cc;
+}
+.btn-orange {
+    color: #f68a5b;
+    border-color: #f68a5b;
+}
+
+.df-thumbnail {
+    margin-top: 11px;
+    border-bottom: 1px solid #f08a5d99;
+}
+.df-thumbnail .caption {
+    margin: 11px 0 22px;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 40px;
+    border: solid 1px #f68a5b;
+    color: #f68a5b;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    font-size: 40px;
+    margin: 0 auto 15px;
+    text-align: center;
+}
+
+
+.section {
+    padding: 30px 0;
+    position: relative;
+    background-color: #f4f3ef;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
+}
+.section-white {
+    background-color: #FFFFFF;
+}
+.section-nude {
+    background-color: #FFFCF5;
+}
+.section-light-brown {
+    background-color: #D8C1AB;
+    color: #FFFFFF;
+}
+.section-brown {
+    background-color: #A59E94;
+    color: #FFFFFF;
+}
+
+.section-dark {
+    background-color: #1a1817;
+    color: #FFFFFF;
+}
+.df-footer {
+    background-attachment: fixed;
+    position: relative;
+    line-height: 20px;
+}
+.df-footer {
+    line-height: 20px;
+    position: relative;
+    border-top: 5px
+    solid #f68a5b;
+    background-attachment: fixed;
+}
+.df-footer nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+.df-footer nav > ul > li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+}
+.df-footer nav > ul > li:first-child {
+    margin: 0;
+    padding: 0;
+}
+.df-footer nav > ul a:not(.btn) {
+    color: #777777;
+    display: block;
+    margin-bottom: 3px;
+}
+.df-footer nav > ul a:not(.btn):hover, .footer nav > ul a:not(.btn):focus {
+    color: #E3E3E3;
+}
+.df-footer .copyright {
+    color: #777777;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 15px 3px;
+    line-height: 20px
+}
+.df-footer .heart {
+    color: #EB5E28;
+}
+.btn, .navbar .navbar-nav > li > a.btn {
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 7px 18px;
+    border-color: #f68a5b;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
+@media (max-width:768px) {
+    .nav.navbar-nav.navbar-right .btn.df-btn-nostyle:hover {
+        color: #f68a5b;
+    }
+    .nav.navbar-nav.navbar-right .btn.df-btn-nostyle {
+        font-size: 11px;
+        color: #000;
+    }
+    .navbar-right li {
+        display: inline-block;
+    }
+    .title-uppercase {
+        font-size: 48px;
+    }
+    .dfnavbar {
+        padding: 0 0 0;
+    }
+}
+@media (max-width:375px) {
+    .h2 {
+        font-size: 30px;
+    }
+    .h4 {
+        font-size: 22px;
+    }
+    .h5 {
+        font-size: 18px;
+    }
+    .nav.navbar-nav.navbar-right .btn.df-btn-nostyle {
+        font-size: 9px;
+    }
+    .navbar-right .df-btn-nostyle:hover {
+        color: #f68a5b;
+    }
+    .title-uppercase {
+        font-size: 40px;
+    }
+    .title-list {
+        font-size: 24px;
+    }
+}
