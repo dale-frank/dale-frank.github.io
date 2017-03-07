@@ -26,7 +26,7 @@ width:296px;
 }
 .maincontainer
 {
-    background-image:url("../images/runningtrack.gif");
+    background-image:url("/runningtrack.gif");
 background-repeat:no-repeat;
 position:relative;
 top:-13px;
