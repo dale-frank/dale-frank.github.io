@@ -242,6 +242,10 @@ margin:130px 0 0; /* negative fixed header height */
 .df-footer .heart {
     color: #EB5E28;
 }
+
+.df-footer .email {
+    color: #f68a5b;
+}
 .btn, .navbar .navbar-nav > li > a.btn {
     border-radius: 20px;
     box-sizing: border-box;
@@ -249,6 +253,7 @@ margin:130px 0 0; /* negative fixed header height */
     background-color: transparent;
     font-size: 16px;
     font-weight: 500;
+    margin: 22px 0;
     padding: 7px 18px;
     border-color: #f68a5b;
     -webkit-transition: all 150ms linear;
@@ -256,6 +261,11 @@ margin:130px 0 0; /* negative fixed header height */
     -o-transition: all 150ms linear;
     -ms-transition: all 150ms linear;
     transition: all 150ms linear;
+}
+
+.btn.btn-orange:focus {
+    color: #f68a5b;
+    outline: none;
 }
 
 @media (max-width:768px) {
