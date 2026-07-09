@@ -67,9 +67,8 @@ width:188px;
 position:absolute;
 top:394px;
 }
-.lexitop
-{
-   left: 720px;
+.lexitop {
+  left: 763px;
   position: relative;
   top: -21px;
   width: 188px;
@@ -87,12 +86,11 @@ position:absolute;
 top:-3px;
 width:388px;;
 }
-#fenceright
-{
-left:499px;
-position:absolute;
-top:-13px;
-width:688px;
+#fenceright {
+  left: 527px;
+  position: absolute;
+  top: 29px;
+  width: 688px;
 }
 #equationcontainer
 {
